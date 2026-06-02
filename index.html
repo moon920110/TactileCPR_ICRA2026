@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="A Closed-Loop CPR Training Glove with Integrated Tactile Sensing and Haptic Feedback">
+  <meta name="description" content="A closed-loop CPR training glove integrating high-resolution tactile sensing and vibrotactile haptic feedback for self-directed practice.">
+  <meta name="keywords" content="High Resolution Tactile Sensor, CPR, Haptic Feedback, Fabrication, Behavior Modeling">
+  <meta name="author" content="Jaeyoung Moon, Mingzhuo Ma, Qifeng Yang, Youjin Choi, Seokhyun Hwang, Sam Burden, Kyung-Joong Kim, Yiyue Luo">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="A Closed-Loop CPR Training Glove with Integrated Tactile Sensing and Haptic Feedback">
+  <meta property="og:description" content="A closed-loop CPR training glove integrating high-resolution tactile sensing and vibrotactile haptic feedback for self-directed practice.">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="A Closed-Loop CPR Training Glove with Integrated Tactile Sensing and Haptic Feedback">
+  <meta name="twitter:description" content="A closed-loop CPR training glove integrating high-resolution tactile sensing and vibrotactile haptic feedback for self-directed practice.">
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="A Closed-Loop CPR Training Glove with Integrated Tactile Sensing and Haptic Feedback">
+  <meta name="citation_author" content="Moon, Jaeyoung">
+  <meta name="citation_author" content="Ma, Mingzhuo">
+  <meta name="citation_author" content="Yang, Qifeng">
+  <meta name="citation_author" content="Choi, Youjin">
+  <meta name="citation_author" content="Hwang, Seokhyun">
+  <meta name="citation_author" content="Burden, Sam">
+  <meta name="citation_author" content="Kim, Kyung-Joong">
+  <meta name="citation_author" content="Luo, Yiyue">
+  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_conference_title" content="IEEE International Conference on Robotics and Automation (ICRA)">
+
+  <!-- TODO: Replace with your paper title -->
+  <title>A Closed-Loop CPR Training Glove with Integrated Tactile Sensing and Haptic Feedback</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <!-- JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "A Closed-Loop CPR Training Glove with Integrated Tactile Sensing and Haptic Feedback",
+    "description": "A closed-loop CPR training glove integrating high-resolution tactile sensing and vibrotactile haptic feedback for self-directed practice.",
+    "author": [
+      { "@type": "Person", "name": "Jaeyoung Moon", "affiliation": { "@type": "Organization", "name": "Gwangju Institute of Science and Technology" } },
+      { "@type": "Person", "name": "Mingzhuo Ma", "affiliation": { "@type": "Organization", "name": "University of Washington" } },
+      { "@type": "Person", "name": "Qifeng Yang", "affiliation": { "@type": "Organization", "name": "University of Washington" } },
+      { "@type": "Person", "name": "Youjin Choi", "affiliation": { "@type": "Organization", "name": "Gwangju Institute of Science and Technology" } },
+      { "@type": "Person", "name": "Seokhyun Hwang", "affiliation": { "@type": "Organization", "name": "University of Washington" } },
+      { "@type": "Person", "name": "Sam Burden", "affiliation": { "@type": "Organization", "name": "University of Washington" } },
+      { "@type": "Person", "name": "Kyung-Joong Kim", "affiliation": { "@type": "Organization", "name": "Gwangju Institute of Science and Technology" } },
+      { "@type": "Person", "name": "Yiyue Luo", "affiliation": { "@type": "Organization", "name": "University of Washington" } }
+    ],
+    "datePublished": "2025-01-01",
+    "isAccessibleForFree": true
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sticky Navigation Bar (inspired by SwarmRobot page) -->
+  <nav class="navbar is-fixed-top" id="navbar">
+    <div class="navbar-menu is-active">
+      <div class="navbar-center">
+        <a class="nav-link" href="#top">Home</a>
+        <span class="nav-sep">|</span>
+        <a class="nav-link" href="#abstract">Abstract</a>
+        <span class="nav-sep">|</span>
+        <a class="nav-link" href="#paper">Paper</a>
+        <span class="nav-sep">|</span>
+        <a class="nav-link" href="#video">Video</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="top">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+
+              <h1 class="title is-1 publication-title">A Closed-Loop CPR Training Glove with Integrated Tactile Sensing and Haptic Feedback</h1>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                  <a href="#" target="_blank">Jaeyoung Moon</a><sup>*1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Mingzhuo Ma</a><sup>*2</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://www.qifengyang.com/" target="_blank">Qifeng Yang</a><sup>2</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Youjin Choi</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Seokhyun Hwang</a><sup>3</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Sam Burden</a><sup>2</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Kyung-Joong Kim</a><sup>&dagger;1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Yiyue Luo</a><sup>&dagger;2</sup>
+                </span>
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                  <sup>1</sup>Gwangju Institute of Science and Technology &nbsp;&nbsp;
+                  <sup>2</sup>University of Washington &nbsp;&nbsp;
+                  <sup>3</sup>University of Washington, The Information School | DUB Group
+                </span>
+                <span class="eql-cntrb"><small><br><sup>*</sup>Equal contribution &nbsp; <sup>&dagger;</sup>Co-corresponding authors</small></span>
+              </div>
+
+              <div class="publication-venue">ICRA 2025</div>
+
+              <!-- Publication Links -->
+              <div class="column has-text-centered">
+                <div class="publication-links">
+
+                  <span class="link-block">
+                    <a href="static/pdfs/_ICRA__Closed_loop_CPR_self_training_system.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="https://arxiv.org/abs/2603.05793" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon"><i class="ai ai-arxiv"></i></span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== POSTER ==================== -->
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container">
+          <h2 class="title is-3 has-text-centered">Poster</h2>
+          <div class="poster-container">
+            <img src="static/images/poster.png" alt="Conference Poster" loading="lazy" class="poster-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== IMAGE CAROUSEL ==================== -->
+    <section class="hero is-small is-light">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div id="teaser-carousel" class="carousel results-carousel">
+            <div class="item">
+              <img src="static/images/overview.png" alt="Pipeline" loading="lazy">
+              <h2 class="subtitle has-text-centered">Overview of the proposed method.</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/system2.png" alt="Results" loading="lazy">
+              <h2 class="subtitle has-text-centered">(a) CPR self-training glove with integrated tactile sensors, vibrotactile haptics, control circuit and FPCB connectors. (b) The tactile sensing array is made of flexible polyimide sheets with copper traces and a Velostat layer. (c) Close-up of the custom control board with sensing and haptic circuits..</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/output.png" alt="Application demo" loading="lazy">
+              <h2 class="subtitle has-text-centered">Haptic Intensity Range Validation Results. Confidence-weighted proportion of each intensity being recognized as low, mid, and high.</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/Calibration.png" alt="Application demo" loading="lazy">
+              <h2 class="subtitle has-text-centered">Examples of the 3-stage compression force data. Stage 1: Applying and releasing pressure in 10kg increments; Stage 2: Gradually increasing and decreasing pressure; Stage 3: Simulating random compressions.</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/HandPose.png" alt="Application demo" loading="lazy">
+              <h2 class="subtitle has-text-centered">Heatmap of average pressure distribution on the sensor for each hand pose case. Brighter areas represent higher pressure.</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/PeakSampling.png" alt="Application demo" loading="lazy">
+              <h2 class="subtitle has-text-centered">Data without peak sampling (left) and with peak sampling (right), both sorted in ascending order of scale values. Peak sampling leads to a clearer separation of sensor values (averaged voltages of all sensor points) according to scale.</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/mechanical.png" alt="Application demo" loading="lazy">
+              <h2 class="subtitle has-text-centered">Tactile sensor characterization. (a) Hysteresis performance of sensors with 1 mm, 3 mm, and 6 mm conductive strips. (b) 300-cycle repeatability test on the sensor with 3 mm conductive strips.</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/snr2.png" alt="Application demo" loading="lazy">
+              <h2 class="subtitle has-text-centered">Global and Local SNR of tactile sensors under 0-600N force.</h2>
+            </div>
+            <div class="item">
+              <img src="static/images/userstudy.png" alt="Application demo" loading="lazy">
+              <h2 class="subtitle has-text-centered">Results of user study responses. &darr; denotes that lower values are better, and &uarr; denotes higher values are better.</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABSTRACT ==================== -->
+    <section class="section hero is-light" id="abstract">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                Cardiopulmonary resuscitation (CPR) is a critical life-saving procedure, and effective training benefits from self-directed practice beyond instructor-led sessions. In this paper, we propose a closed-loop CPR training glove that integrates a high-resolution tactile sensing array and vibrotactile actuators for self-directed practice. The tactile sensing array measures distributed pressures across the palm and dorsum to enable real-time estimation of compression rate, force, and hand pose. Based on these estimations, the glove delivers immediate haptic feedback to guide the user for proper CPR, reducing reliance on external audio-visual displays. We quantified the tactile sensor performance by measuring wide-range sensitivity (&asymp; 0.85 over 0&ndash;600 N), computing hysteresis (56.04%), testing stability (11.05% drift over 300 cycles), and estimating global signal-to-noise ratio (18.90 &plusmn; 2.41 dB at 600 N). Our closed-loop pipeline provides continuous modeling and feedback of key performance metrics essential for high-quality CPR. Our lightweight statistical models achieves &gt;92% accuracy for force estimation and hand pose classification within sub-millisecond inference time. Our user study (N=8) showed that haptic feedback reduced visual distraction compared to audio-visual cues, though simplified patterns were required for reliable perception under dynamic load. These results highlight the feasibility of the proposed system and offer design insights for future haptic CPR self-training system.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PAPER / CITATION ==================== -->
+    <section class="section" id="paper">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">Paper</h2>
+            <div class="content">
+              <p>
+                Jaeyoung Moon, Mingzhuo Ma, Qifeng Yang, Youjin Choi, Seokhyun Hwang, Sam Burden, Kyung-Joong Kim, and Yiyue Luo.
+                <em>"A Closed-Loop CPR Training Glove with Integrated Tactile Sensing and Haptic Feedback."</em>
+                arXiv preprint arXiv:2603.05793, 2025.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BibTeX ==================== -->
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title">BibTeX</h2>
+          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+            <i class="fas fa-copy"></i>
+            <span class="copy-text">Copy</span>
+          </button>
+        </div>
+        <pre id="bibtex-code"><code>@article{moon2025closedloop,
+  title   = {A Closed-Loop CPR Training Glove with Integrated Tactile Sensing and Haptic Feedback},
+  author  = {Moon, Jaeyoung and Ma, Mingzhuo and Yang, Qifeng and Choi, Youjin and Hwang, Seokhyun and Burden, Sam and Kim, Kyung-Joong and Luo, Yiyue},
+  journal = {arXiv preprint arXiv:2603.05793},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2603.05793}
+}</code></pre>
+      </div>
+    </section>
+
+    <!-- ==================== VIDEO ==================== -->
+    <section class="hero is-small is-light" id="video">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <h2 class="title is-3 has-text-centered">Video</h2>
+          <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+              <div class="publication-video">
+                <iframe src="https://www.youtube.com/embed/TC5V0Tkwl1I"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content has-text-centered">
+            <p>
+              This page was built using the
+              <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+              Licensed under
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
